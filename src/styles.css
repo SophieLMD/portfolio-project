@@ -14,6 +14,11 @@ h2 {
   font-size: 64px;
   font-weight: bold;
 }
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
 p {
   font-size: 16px;
   line-height: 30px;
@@ -70,6 +75,24 @@ p {
 .project-description {
   padding: 120px 60px 0;
 }
+.socials {
+  display: block;
+  text-align: center;
+}
+.email {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+.socials-icons {
+  font-size: 18;
+  color: var(--branding-color);
+}
+footer .contact-container {
+  background: var(--background-color);
+  padding: 40px;
+  border-radius: 20px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
