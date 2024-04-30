@@ -87,6 +87,9 @@ p {
   font-size: 18;
   color: var(--branding-color);
 }
+.headshot-img {
+  width: 560px;
+}
 footer .contact-container {
   background: var(--background-color);
   padding: 40px;
