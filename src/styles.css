@@ -105,6 +105,15 @@ p {
 .content-details {
   margin: 30px;
 }
+.content-details h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+.content-details p {
+  font-size: 14px;
+}
 footer .contact-container {
   background: var(--background-color);
   padding: 40px;
