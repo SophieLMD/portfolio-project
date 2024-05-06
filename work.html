@@ -31,44 +31,41 @@
       src="https://kit.fontawesome.com/bab600b4f6.js"
       crossorigin="anonymous"
     ></script>
+    <meta
+      name="description"
+      content="Sophie is a front-end engineer based in the U.K. Contact Sophie to collaborate on front-end projects."
+    />
     <title>Front-end Developer Portfolio | Projects | Sophie Davies</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary"
-      style="background-color: #f9f7fe"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Sophie Davies</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/"
+          ><img
+            src="/images/logo.png"
+            alt="SheCodes Logo"
+            class="logo d-none d-md-block"
+            title="homepage"
+        /></a>
+        <a href="/"
+          ><img
+            src="/images/logo-small.png"
+            alt="SheCodes Small Logo"
+            class="logo d-block d-md-none"
+            title="homepage"
+        /></a>
+        <ul>
+          <li>
+            <a href="/" title="homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="about page"> About</a></li>
+          <li class="active">
+            <a href="/work.html" title="work page">Work</a>
+          </li>
+          <li><a href="/contact.html" title="contact page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content container">
       <div class="content-details">
         <h1 class="mb-5">Take a look at what I have been working on!</h1>
@@ -122,9 +119,62 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-sm-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="contact"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:sophiedavies1316@gmail.com"
+            class="email-link"
+            title="Sophie's email"
+            >sophiedavies1316@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mt-3">
+          <a
+            href="https://www.instagram.com/sophie.davies.16"
+            target="_blank"
+            title="Instagram Page"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sophie-davies-52910b72"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/SophieLMD"
+            target="_blank"
+            title="GitHub page"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4 text-muted">
+          This page was coded by Sophie Davies and is
+          <a
+            href="https://github.com/SophieLMD/portfolio-project"
+            title="GitHub Project Link"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
-    <footer>
-      <a href="/">Return to Homepage</a>
-    </footer>
   </body>
 </html>
