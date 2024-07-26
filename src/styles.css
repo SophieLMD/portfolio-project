@@ -3,6 +3,7 @@
   --branding-color: #006d77;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --emphasis-color: #fb6f92;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -87,7 +88,7 @@ nav li.active a {
 }
 .btn-branding:hover {
   color: #272142;
-  background: #fb6f92;
+  background: var(--emphasis-color);
 }
 .btn-branding-outline {
   color: #272142;
@@ -153,6 +154,28 @@ nav li.active a {
 .work-image {
   width: 560px;
   height: 560px;
+}
+.coding-tools {
+  border: solid 5px;
+  text-align: center;
+
+  padding: 40px;
+  border-radius: 15px;
+}
+.coding-tools li {
+  list-style: none;
+  line-height: 42px;
+}
+
+.featured-technologies {
+  border: solid 5px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.featured-technologies li {
+  list-style: none;
+  line-height: 42px;
 }
 footer {
   margin: 60px 0;
