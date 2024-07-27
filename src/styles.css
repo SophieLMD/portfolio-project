@@ -1,5 +1,5 @@
 :root {
-  --background-color: #f9f7fe;
+  --background-color: #f9f8ed;
   --branding-color: #006d77;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -45,7 +45,7 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: hsl(251, 33%, 19%);
   transition: all 100ms ease-in-out;
   font-family: var(--default-font-family);
 }
@@ -170,9 +170,21 @@ nav li.active a {
 .content-details p {
   font-size: 14px;
 }
+.content-details a {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--branding-color);
+  font-weight: 600;
+  transition: 0.5 ease;
+}
+.content-details a:hover {
+  text-decoration: underline;
+  color: var(--emphasis-color);
+}
 .work-image {
-  width: 560px;
-  height: 560px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .coding-tools {
   border: solid 5px;
@@ -229,6 +241,16 @@ footer .contact-box {
 }
 footer .contact-box p {
   margin: 0;
+}
+footer a {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5 ease;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: var(--emphasis-color);
 }
 
 @media (max-width: 900px) {
